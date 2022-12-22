@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* GENERAl */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --colorbg1: #FBF8F5;
+    --colorbgwhite: #FFF;
+    --color3: #E9672B;
+    --black: #000000;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+.wrapper{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+/* HEADER */
+header{
+    background-color: var(--colorbg1);
+    padding: 33px 0 22px;
+}
+.nav{
+    padding: 0 45px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-first, .menu-second {
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    margin-right: 35px;
+}
+.menu-item-link{
+    line-height: 20px;
+}
+.cart {
+    background: url("images/cart.svg") center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+/* MAIN */
+.started {
+    background-color: var(--colorbg1);
+}
+.started-txt {
+    min-height: 611px;
+    margin-left: 96px;
+    margin-right: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.started-txt-title {
+    font-size: 64px;
+    line-height: 76px;
+    max-width: 376px;
+    margin-bottom: 18px;
+}
+.started-txt-text {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 523px;
+}
+.started-btn{
+    width: 154px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: var(--color3);
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 46px;
+    border: none;
+    cursor: pointer;
+}
+.started-img {
+    max-width: 628px;
+    width: 100%;
+    min-height: 611px;
+    background-image: url("images/shopbyroom.svg");
+    background-position: center;
+    background-size: contain;
+}
+.shop-room{
+    padding-top: 36px;
+    background-color: var(--colorbg1);
+}
+.flex-column {
+    flex-direction: column;
+    align-items: center;
+}
+.shop-room-title {
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 24px;
+}
+.rooms {
+    padding: 20px 100px 71px 100px;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.room-cart {
+    margin-right: 36px;
+}
+.room-cart:last-child{
+    margin-right: 0px;
+}
+.living {
+    border: 2px solid #E9672B;
+    box-shadow: 8px 8px 0px #CBC6F4;
+    border-radius: 4px;
+}
+.bedroom{
+    border: 2px solid #225DCA;
+    box-shadow: 8px 8px 0px #E7CB43;
+    border-radius: 4px;
+}
+.home-office{
+    border: 2px solid #242947;
+    box-shadow: 8px 8px 0px #A2D4C5;
+    border-radius: 4px;
+}
+.dining{
+    border: 2px solid #DE4333;
+    box-shadow: 8px 8px 0px #AF4920;
+    border-radius: 4px;
+}
+.room-cart-txt {
+    padding: 15px 0 19px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.furniture {
+    padding: 131px 0 94px;
+}
+.furniture-title {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.furniture-txt {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 892px;
+    text-align: center;
+    margin: 0 auto;
+}
