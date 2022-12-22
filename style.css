@@ -105,7 +105,8 @@ header{
     min-height: 611px;
     background-image: url("images/shopbyroom.svg");
     background-position: center;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .shop-room{
     padding-top: 36px;
