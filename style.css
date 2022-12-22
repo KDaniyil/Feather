@@ -224,3 +224,54 @@ header{
 .col-img {
     flex: 0 1 50%;
 }
+.bestsellers {
+    background-color: var(--colorbg1);
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-top: 112px;
+    padding-bottom: 142px;
+}
+.bestsellers-title {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+.product-cards {
+    margin-top: 57px;
+    margin-bottom: 55px;
+    display: flex;
+}
+.card {
+    background-color: var(--colorbgwhite);
+    margin-right: 4px;
+    min-width: 233px;
+    height: 430px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all .3s ease;
+}
+.card-image {
+    margin: 40px 0 33px;
+    display: flex;
+    justify-content: center;
+}
+.card p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.price-rent {
+    font-size: 20px;
+    color: var(--color3);
+}
+.price-buy {
+    color: #4F4F4F;
+}
+.best-price {
+    color: var(--color3);
+    font-size: 24px;
+}
+.card-title{
+    margin-bottom: 8px;
+}
