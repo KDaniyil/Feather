@@ -24,6 +24,7 @@ a{
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 /* HEADER */
 header{
@@ -47,10 +48,18 @@ header{
 .menu-item-link{
     line-height: 20px;
 }
+.menu-item-link:hover{
+    text-decoration:underline;
+    transition: all 0.3s ease;
+}
 .cart {
     background: url("images/cart.svg") center no-repeat;
     width: 25px;
     height: 25px;
+}
+.cart:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 /* MAIN */
 .started {
@@ -84,7 +93,11 @@ header{
     line-height: 28px;
     margin-top: 46px;
     border: none;
+}
+.started-btn:hover{
     cursor: pointer;
+    background-color: #be6237;
+    transition: all 0.3s ease;
 }
 .started-img {
     max-width: 628px;
@@ -117,9 +130,14 @@ header{
 }
 .room-cart {
     margin-right: 36px;
+    transition: all .3s ease;
 }
 .room-cart:last-child{
     margin-right: 0px;
+}
+.room-cart:hover{
+    transform: scale(1.15);
+    transition: all .3s ease;
 }
 .living {
     border: 2px solid #E9672B;
@@ -162,4 +180,46 @@ header{
     max-width: 892px;
     text-align: center;
     margin: 0 auto;
+}
+.links {
+    background-color: var(--colorbgwhite);
+}
+.row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 64px;
+    justify-content: space-between;
+}
+.col-link-txt {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 85px;
+}
+.link-txt-title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+.link-txt-text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 33px;
+    max-width: 400px;
+}
+.link-txt-link {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color3);
+    transition: all .3s ease;
+}
+.link-txt-link:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    transition: all .3s ease;
+}
+.col-img {
+    flex: 0 1 50%;
 }
