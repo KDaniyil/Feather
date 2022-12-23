@@ -399,3 +399,37 @@ header{
     justify-content: space-evenly;
     margin-bottom: 100px;
 }
+.stress {
+    background-color: var(--colorbgwhite);
+}
+.stress-img {
+    background-image: url("images/stress.svg");
+    width: 264px;
+    height: 180px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.stress-txt{
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 292px;
+    text-align: center;
+}
+.shop-btn {
+    margin: 40px 0 120px;
+    width: 202px;
+    height: 60px;
+    border-radius: 88px;
+    border: none;
+    background-color: var(--color3);
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    transition: all 0.3s ease;
+}
+
+.shop-btn:hover{
+    background-color:#AF4920;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
