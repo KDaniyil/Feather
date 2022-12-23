@@ -90,7 +90,7 @@ header{
     border-radius: 30px;
     background-color: var(--color3);
     font-size: 18px;
-    line-height: 28px;
+    line-height: 60px;
     margin-top: 46px;
     border: none;
 }
@@ -274,4 +274,42 @@ header{
 }
 .card-title{
     margin-bottom: 8px;
+}
+.floyd{
+    background-color: var(--colorbg1);
+}
+.floyd-image {
+    background-image: url("images/floyd.svg");
+    flex: 0 1 832px;
+    min-height: 343px;
+}
+.floyd-description {
+    flex: 1 1;
+    background-color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.floyd-title {
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--colorbgwhite);
+    width: 363px;
+    text-align: center;
+}
+.floyd-btn {
+    width: 272px;
+    height: 60px;
+    background-color: var(--colorbgwhite);
+    border-radius: 88px;
+    border: none;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+}
+.floyd-btn:hover{
+    cursor: pointer;
+    background-color: rgb(197, 190, 190);
+    transition: all 0.3s ease;
 }
