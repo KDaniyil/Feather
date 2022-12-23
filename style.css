@@ -382,3 +382,20 @@ header{
     font-size: 16px;
     line-height: 24px;
 }
+.pain {
+    background-color: #F6CFCA;
+}
+.pain-title {
+    margin: 40px;
+    max-width: 913px;;
+    font-size: 88px;
+    line-height: 100px;
+    text-align: center;
+}
+.pain-icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
